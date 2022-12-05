@@ -1,0 +1,21 @@
+{
+	"name": "eslint-config-codecraft",
+	"version": "1.0.0",
+	"description": "Codecraft.dev ESLint config",
+	"main": ".eslintrc.json",
+	"license": "ISC",
+	"author": {
+		"name": "Luka Maljic",
+		"email": "luka@codecraft.dev",
+		"url": "https://codecraft.dev"
+	},
+	"peerDependencies": {
+		"eslint": "8.x",
+		"eslint-config-prettier": "8.x",
+		"eslint-plugin-editorconfig": "4.x",
+		"eslint-plugin-prefer-let": "3.x",
+		"eslint-plugin-prettier": "4.x",
+		"eslint-plugin-simple-import-sort": "8.x",
+		"prettier": "2.x"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"extends": [
+		"plugin:prettier/recommended"
+	],
+	"plugins": [
+		"editorconfig",
+		"prefer-let",
+		"simple-import-sort"
+	],
+	"rules": {
+		"editorconfig/charset": "error",
+		"editorconfig/eol-last": "error",
+		"editorconfig/no-trailing-spaces": "error",
+		"eqeqeq": [
+			"error",
+			"always"
+		],
+		"no-var": "error",
+		"prefer-const": "off",
+		"prefer-let/prefer-let": "error",
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error"
+	}
+}
